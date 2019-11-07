@@ -16,4 +16,4 @@ with open('pred_urls.csv', mode='w', newline='') as url_file:
     csv_writer.writerow(['pred_file', 'url'])
 
     for file in file_list:
-    	csv_writer.writerow([file, "https://code.rand.org/yerinkim/roeda-preds/raw/master/preds/{0}".format(file)])
+    	csv_writer.writerow([file, "https://raw.githubusercontent.com/yerinkimRAND/roeda-preds/master/preds/{0}".format(file)])
